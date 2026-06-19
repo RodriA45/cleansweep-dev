@@ -8,7 +8,7 @@
 **CleanSweep Dev v2** es la versión premium del limpiador selectivo de espacio en disco para desarrolladores. Con interfaz dark mode de estética SaaS, escaneo inteligente por tecnología, filtros avanzados, historial de ahorro persistente y empaquetado como aplicación de escritorio nativa.
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450/0b0f17/94a3b8?text=Arrastra+y+suelta+aqui+un+GIF+o+Captura+de+Pantalla+en+GitHub" alt="CleanSweep Dev Interface Demo" width="800" style="border-radius: 8px; margin: 20px 0;">
+  <img src="docs/demo.webp" alt="CleanSweep Dev Interface Demo" width="800" style="border-radius: 8px; margin: 20px 0; border: 1px solid #1e293b;">
 </div>
 
 ---
