@@ -1,0 +1,53 @@
+{
+  "name": "cleansweep-dev-v2",
+  "version": "2.0.0",
+  "description": "Limpiador visual local v2 con diseño SaaS premium — filtra, limpia y libera espacio de desarrollo",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js",
+    "electron:dev": "electron .",
+    "electron:build": "electron-packager . \"CleanSweep Dev v2\" --platform=win32 --arch=x64 --out=dist --overwrite --icon=public/icon.png --ignore=dist --ignore=node_modules/electron-builder --ignore=node_modules/app-builder-bin"
+  },
+  "build": {
+    "appId": "com.cleansweep.dev.v2",
+    "productName": "CleanSweep Dev v2",
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "public/icon.png"
+    },
+    "files": [
+      "main.js",
+      "server.js",
+      "public/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "extraMetadata": {
+      "main": "main.js"
+    }
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3",
+    "electron-packager": "^17.1.2"
+  },
+  "keywords": [
+    "clean",
+    "node_modules",
+    "venv",
+    "cleanup",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "ISC"
+}
